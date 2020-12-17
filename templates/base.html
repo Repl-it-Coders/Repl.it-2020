@@ -1,0 +1,21 @@
+<DOCTYPE html>
+<html>
+<head>
+	<title>{% block title %}{% endblock %}</title>
+	<link rel='stylesheet' href='/static/style.css'>
+</head>
+<body>
+<div class="header">
+	<h1>ShareIt</h1>
+	<div class="navbar">	
+		<a href="/" class="{% block active_home %}{% endblock %}">Home</a>
+
+		<a href="/post" class="{% block active_post %}}{% endblock %}">Post</a>
+
+		<a href="/posts" class="{% block active_viewposts %}}{% endblock %}">View Posts</a>
+	</div>
+</div>
+{% block content %}
+{% endblock %}
+</body>
+</html>
