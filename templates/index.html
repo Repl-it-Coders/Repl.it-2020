@@ -1,2 +1,22 @@
-{% extends 'templates/base.html' %}
-{% block title %} Home {% endblock %}
+<DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel='stylesheet' href='/templates/style.css'>
+</head>
+<body>
+<div class="header">
+	<h1>ShareIt</h1>
+	<div class="navbar">	
+		<a href="/" class="{% block active_home %}{% endblock %}">Home</a>
+
+		<a href="/thanks!" class="{% block active_post %}}{% endblock %}">Thanks, Repl!</a>
+
+		<a href="/suggestions" class="{% block active_viewposts %}}{% endblock %}">Suggestions</a>
+		<a href="/posts" class="{% block active_viewposts %}}{% endblock %}">Posts</a>
+	</div>
+</div>
+{% block content %}
+{% endblock %}
+</body>
+</html>
