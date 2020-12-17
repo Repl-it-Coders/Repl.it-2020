@@ -3,6 +3,6 @@ from wtforms import StringField, SubmitField, RadioField
 from wtforms.validators import DataRequired
 
 class post:
-	name = StringField('Username:', validators=[DataRequired()])
-	content = StringField('Post:', validators=[DataRequired()])
-	submit = SubmitField('Post!')
+	name = StringField('Repl.it username:', validators=[Datarequired()])
+	suggestion = StringField('Suggestion:', validators=[DataRequired()])
+	submit = SubmitField('Post')
