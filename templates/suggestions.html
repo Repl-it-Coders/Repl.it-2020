@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posts</title>
-    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <title>Suggestions</title>
+    <link rel="stylesheet" href="static/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <style>
 html {
   background-color: #03045E;
-  color: #31D843;
+  color: #D8973C;
   font-family: 'Montserrat', sans-serif;
 }
 .header {
@@ -32,6 +32,7 @@ html {
   float: left;
   display: block;
   color: #3A2618;
+  text-align: center;
   padding: 14px 20px;
   text-decoration: none;
 }
@@ -43,9 +44,9 @@ html {
 }
 
 /* Change color on hover */
-.navbar a.suggestions:hover {
-  background-color: #1CFEBA;
-  color: #D8973C;
+.navbar a.posts:hover {
+  background-color: #EE2E31;
+  color: #31D843;
 }
 .navbar a.home:hover {
   background-color: #D7F171;
@@ -54,8 +55,8 @@ html {
 
 /* Active/current link */
 .navbar a.active {
-  background-color: #EE2E31;
-  color: #31D843;
+  background-color: #1CFEBA;
+  color: #D8973C;
   font-weight: bold;
 }
 
@@ -73,13 +74,32 @@ h1, h2 {
   </head>
   <body>
     <div class="header center">
-    <h1>Awesome Posts</h1>
+      <h1>ShareIt</h1>
       <div class="navbar">	
         <a href="/" class="home" span title="Travel to the home page">Home</a>
-        <a href="/suggestions" class="suggestions" span title="Leave a suggestion here">Suggestions</a>
-        <a href="/posts" class="active" span title="See our top rated posts of the year">Posts</a>
+        <a href="/suggestions" span title="Leave a suggestion here" class="active">Suggestions</a>
+        <a href="/posts" class="posts" span title="See our top rated posts of the year">Posts</a>
       </div>
     </div>
-    <h1 class="center">Best Posts Of The Year</h1>
+    <h1 class="center" id="heading">Suggest something about Repl.it!</h1>
+
+    <div id="form" class="center">
+      <form>
+        <label for="username">Repl.it username:</label><br> 
+        <input type="text" name="username" id="username"> <br>
+        <label for="suggestion">Suggestion:</label><br>
+        <input name="suggestion" id="suggestion" maxlength="1000" type="text">
+        <br> <br>
+        <button onclick="suggest()">Submit the form</button>
+      </form>
+    </div>
   </body>
 </html>
+
+<script>
+  function suggest() {
+    username = document.getElementById('username')
+    suggestion = document.getElementById('suggestion')
+    console.log(username + "\n" + suggestion)
+  }
+</script>
