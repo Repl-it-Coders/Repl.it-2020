@@ -1,13 +1,24 @@
+html {
+  background-color: #03045E;
+  color: #FF69EB;
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  color: rgb(255, 94, 185);
+  text-decoration: none;
+}
+a:hover {
+  color: rgba(197, 0, 111, 0.5);
+}
 .header {
   padding: 30px;
-  text-align: left;
   background: black;
   color: white;
   font-size: 15px;
 }
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #586F7C;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -17,8 +28,7 @@
 .navbar a {
   float: left;
   display: block;
-  color: white;
-  text-align: center;
+  color: #3A2618;
   padding: 14px 20px;
   text-decoration: none;
 }
@@ -30,23 +40,29 @@
 }
 
 /* Change color on hover */
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
+.navbar a.suggestions:hover {
+  background-color: #1CFEBA;
+  color: #D8973C;
+}
+.navbar a.posts:hover {
+  background-color: #EE2E31;
+  color: #31D843;
 }
 
 /* Active/current link */
 .navbar a.active {
-  background-color: #666;
-  color: white;
+  background-color: #D7F171;
+  color: #FF69EB;
+  font-weight: bold;
 }
 
 body {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-h1 {
-	text-align: center
+.center {
+  text-align: center;
 }
-i {
-	text-align: center
+h1, h2 {
+  color: #DDFFF7;
+  font-family: 'Shadows Into Light', cursive;
 }

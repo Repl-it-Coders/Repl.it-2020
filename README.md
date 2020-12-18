@@ -1,14 +1,8 @@
-# Repl.it-2020
-This is the project for the end of the year. We will give the highlights of repl.it in this website, and we will also give a thank you note to repl.
+# Hi
+This is a project for repl.it. In 2020 we went through many hardships but repl.it has still helped us through this year. We are still here, and we survived 2020, and we should thank repl.it for that.
 
-## Org
-If you are viewing this from repl.it, make sure you are in the GitHub organization. Go [here](https://github.com/Repl-it-Coders) and press view invitation and accept it. One thing to note is that when you join it says I can see your IP address. I asked the GitHub community if it is possible to remove this IP address visibility thing and where the IP addresses are, but the person said you cannot remove the IP address thing. Go [here](https://github.community/t/organization-ip/149521/2) to see it. The only thing is, that person said the IP addresses would be in the audit log. I went and checked there, but all I could see was the countries. I think that person was mistaken or whatever but I promise you I can't find your IP addresses anywhere. The only thing you have to be cautious about is that I can see your country. Please believe me, as you can even see here: ![An image of sorts](https://storage.googleapis.com/replit/images/1608214875670_48ca30c593dedc87ec4f55cf3a9f3c77.png)
-MaxYang(now FlaminHotValdez)'s comment is [here](https://repl.it/talk/ask/GitHub/86109)
+## Project
+This is a simple website in which we will say thanks to repl, we will have a suggestions box, and we will have a timeline of what happened in repl.it. We will also have the best posts of the year in the posts section. This will be based on the most upvoted posts in the year. We will have the most upvoted posts, feedback, and bugs of the year in the posts section.
 
-## Description of the files
-__main.py__ the server  
-
-__templates/base.html__ the template that includes the nav bar (jinja)  
-__templates/index.html__ the homepage 
-
-__static/style.css__ the styling for all of the html  
+## GitHub
+If you are here, that means you are either in the GitHub org or I have invited you to the GitHub org. If you haven't joined the GitHub organization then go [here](https://github.com/Repl-it-Coders) and press view invitation and join. One thing to note is that it says I can see you IP address. I have asked in the GitHub community if you can disable this thing but the person responded with no. He also said the IP addresses are in the audit log, but when I checked there, the only thing I could see is the countries. Please believe me, as I promise that I can only see your country, and that I cannot see your IP address. You can look at the GitHub post I made earlier and you can look at other posts and you will see that I am not lying.
