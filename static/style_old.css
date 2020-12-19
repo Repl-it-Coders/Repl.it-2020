@@ -4,40 +4,49 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 a {
-  color: #FECEE9;
+  color: rgb(255, 94, 185);
   text-decoration: none;
 }
 a:hover {
-  color: rgba(254, 206, 233, 0.5);
+  color: rgba(197, 0, 111, 0.5);
 }
 .header {
   padding: 30px;
-  background: rgb(8, 8, 8);
+  background: black;
   color: white;
   font-size: 15px;
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .navbar {
   overflow: hidden;
   background-color: #586F7C;
-  position: sticky;
   position: -webkit-sticky;
-  top: 0;
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Style the navigation bar links */
 .navbar a {
-  float: left;
-  display: block;
+  display: box;
   color: #3A2618;
   padding: 14px 20px;
   text-decoration: none;
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
-/* Right-aligned link */
-.navbar a.right {
-  float: right;
-}
+
 
 /* Change color on hover */
 .navbar a.suggestions:hover {

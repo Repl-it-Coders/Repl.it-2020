@@ -1,7 +1,8 @@
-const express = require("express");// Set up the express module
+const express = require("express");
 const app = express();
 
-app.use(express.static('static'));
+// Finally got this line to work, so /static leads to any necessary static content. ~ SixBeeps
+app.use('/static', express.static(__dirname + '/static'));
 
 app.get("/", async(req, res) => {
   console.log("Yeeet, [DEBUG] we running in home page");
