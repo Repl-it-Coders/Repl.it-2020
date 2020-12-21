@@ -1,21 +1,80 @@
-html {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Shadows+Into+Light&display=swap');
+
+/* HTML CSS */
+html.home {
   background-color: #03045E;
   color: #FF69EB;
   font-family: 'Montserrat', sans-serif;
 }
-a {
+html.posts {
+  background-color: #03045E;
+  color: #840032;
+}
+html.suggestions {
+  background-color: #03045E;
+  color: #D8973C;
+}
+html {
+  font-size: 20px;
+}
+
+/* Global and Most Used */
+body {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding : 0;
+}
+.center {
+  text-align: center;
+  list-style-position: inside;
+}
+h1 {
+  font-size: 60px;
+}
+h1.big {
+  font-size: 80px;
+}
+h2 {
+  font-size: 40px;
+}
+h1, h2 {
+  color: #DDFFF7;
+  font-family: 'Shadows Into Light', cursive;
+}
+h3 {
+  font-size: 35px;
+}
+
+/* Links on Home Page */
+.homeLink {
   color: #FECEE9;
   text-decoration: none;
 }
-a:hover {
-  color: rgba(254, 206, 233, 0.5);
+.homeLink:hover {
+  color: rgba(254, 206, 233, 0.695);
 }
-.header {
-  padding: 30px;
-  background: rgb(8, 8, 8);
-  color: white;
-  font-size: 15px;
+/* Lists on Posts Page */
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
+ol a {
+  color: #54DEFD;
+  text-decoration: none;
+}
+ol a:hover {
+  color: rgba(84, 222, 253, 0.695);
+  text-decoration: none;
+}
+p a {
+  color: #C0DF85;
+  text-decoration: none;
+}
+p a:hover {
+  color: rgba(192, 223, 133, 0.695);
+}
+/* NAVBAR */
 .navbar {
   overflow: hidden;
   background-color: #586F7C;
@@ -48,21 +107,72 @@ a:hover {
   background-color: #EE2E31;
   color: #31D843;
 }
+.navbar a.home:hover {
+  background-color: #D7F171;
+  color: #FF69EB;
+}
 
 /* Active/current link */
-.navbar a.active {
+.navbar a.suggestions.active {
+  background-color: #1CFEBA;
+  color: #D8973C;
+  font-weight: bold;
+}
+.navbar a.posts.active {
+  background-color: #EE2E31;
+  color: #31D843;
+  font-weight: bold;
+}
+.navbar a.home.active {
   background-color: #D7F171;
   color: #FF69EB;
   font-weight: bold;
 }
 
-body {
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+/* Active Hover Current Link */
+.navbar a.suggestions.active:hover {
+  background-color: rgba(28, 254, 186, 0.695);
+  color: rgba(216, 151, 60, 0.695);
+  font-weight: bold;
 }
-.center {
-  text-align: center;
+.navbar a.posts.active:hover {
+  background-color: rgb(238, 46, 49, 0.695);
+  color: rgba(49, 216, 67, 0.695);
+  font-weight: bold;
 }
-h1, h2 {
-  color: #DDFFF7;
-  font-family: 'Shadows Into Light', cursive;
+.navbar a.home.active:hover {
+  background-color: rgb(215, 241, 113, 0.695);
+  color: rgba(255, 105, 235, 0.695);
+  font-weight: bold;
+}
+
+/* Header and Footer */
+header {
+  padding: 30px;
+  background: #04030F;
+  color: white;
+  font-size: 17px;
+}
+
+footer {
+  height: 100px;
+  padding: 10px 10px 10px 10px; 
+  bottom: 0; 
+  width: 98.59%;
+  background: grey; 
+  background: #30292F;
+  color: #E7CFCD;
+  font-size: 13px;
+  text-align: left;
+}
+footer a {
+  color: #F4B393;
+  text-decoration: none;
+}
+footer a:hover {
+  color: rgba(244, 179, 147, 0.695);
+}
+
+footer ul {
+    list-style-type: none;
 }

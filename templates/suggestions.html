@@ -1,105 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="suggestions">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suggestions</title>
-    <link rel="stylesheet" href="/static/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Shadows+Into+Light&display=swap" rel="stylesheet">
-    <style>
-html {
-  background-color: #03045E;
-  color: #D8973C;
-  font-family: 'Montserrat', sans-serif;
-}
-.header {
-  padding: 30px;
-  background: black;
-  color: white;
-  font-size: 15px;
-}
-.navbar {
-  overflow: hidden;
-  background-color: #586F7C;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-}
-
-/* Style the navigation bar links */
-.navbar a {
-  float: left;
-  display: block;
-  color: #3A2618;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
-
-
-/* Right-aligned link */
-.navbar a.right {
-  float: right;
-}
-
-/* Change color on hover */
-.navbar a.posts:hover {
-  background-color: #EE2E31;
-  color: #31D843;
-}
-.navbar a.home:hover {
-  background-color: #D7F171;
-  color: #FF69EB;
-}
-
-/* Active/current link */
-.navbar a.active {
-  background-color: #1CFEBA;
-  color: #D8973C;
-  font-weight: bold;
-}
-
-body {
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-.center {
-  text-align: center;
-}
-h1, h2 {
-  color: #DDFFF7;
-  font-family: 'Shadows Into Light', cursive;
-}
-    </style>
+    <link rel="stylesheet" type="text/css" href="https://Replit-2020.whippingdot.repl.co/static/style.css">
   </head>
   <body>
 
-<script>
-  function suggest() {
-    username = document.getElementById('username')
-    suggestion = document.getElementById('suggestion')
-    console.log(username + "\n" + suggestion)
-  }
-</script>
-    <div class="header center">
-      <h1>ShareIt</h1>
+  <script>
+    function suggest() {
+      username = document.getElementById('username')
+      suggestion = document.getElementById('suggestion')
+      console.log(username + "\n" + suggestion)
+    }
+  </script>
+    <header class="center">
+      <h1 class="big">For Repl.it</h1>
+      <h1>Share It</h1>
       <div class="navbar">	
         <a href="/" class="home" span title="Travel to the home page">Home</a>
-        <a href="/suggestions" span title="Leave a suggestion here" class="active">Suggestions</a>
+        <a href="/suggestions" class="suggestions active" span title="Leave a suggestion here">Suggestions</a>
         <a href="/posts" class="posts" span title="See our top rated posts of the year">Posts</a>
       </div>
-    </div>
-    <h1 class="center" id="heading">Suggest something about Repl.it!</h1>
+    </header>
 
+    <h1 class="center" id="heading">Suggest something about Repl.it!</h1>
     <div id="form" class="center">
       <form>
         <label for="username">Repl.it username:</label><br> 
-        <input type="text" name="username" id="username"> <br>
+        <input type="text" name="username" id="username"/> <br>
         <label for="suggestion">Suggestion:</label><br>
-        <input name="suggestion" id="suggestion" maxlength="1000" type="text">
+        <input name="suggestion" id="suggestion" maxlength="1000" type="text"/>
         <br> <br>
         <button onclick="suggest()">Submit the form</button>
       </form>
     </div>
+
+    <footer>
+      <p>Made with ❤ by the <a href="https://github.com/Repl-it-Coders">Repl-it-Coders Team</a> for <a href="https://repl.it">repl.it</a> as they carried use through these crises.</p>
+      <ul>
+        <li><a href="https://github.com/Repl-it-Coders/Repl.it-2020">GitHub Repo</a></li>
+        <li><a href="https://repl.it/@Whippingdot/Replit-2020">Project on Repl.it</a></li>
+        <li><a href="https://repl.it/@Whippingdot/Replit-2020#README.md">README</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
