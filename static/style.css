@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
 
 /* HTML CSS */
 html.home {
@@ -74,6 +76,30 @@ p a {
 p a:hover {
   color: rgba(192, 223, 133, 0.695);
 }
+/* Suggestion page styling */
+.suggestions label {
+  color: #0E9594;
+  font-family: 'Handlee', cursive;
+  font-size: 20px;
+}
+button {
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #6CD4FF;
+  color: #562C2C;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 20px;
+}
+input, textarea {
+  padding: 10px;
+  border-radius: 7px;
+  background-color: #F2542D;
+  color: #F5DFBB;
+}
+textarea {
+  width: 400px;
+  height: 100px;
+}
 /* NAVBAR */
 .navbar {
   overflow: hidden;
@@ -86,7 +112,6 @@ p a:hover {
 /* Style the navigation bar links */
 .navbar a {
   float: left;
-  display: block;
   color: #3A2618;
   padding: 14px 20px;
   text-decoration: none;
@@ -133,19 +158,31 @@ p a:hover {
 .navbar a.suggestions.active:hover {
   background-color: rgba(28, 254, 186, 0.695);
   color: rgba(216, 151, 60, 0.695);
-  font-weight: bold;
 }
 .navbar a.posts.active:hover {
   background-color: rgb(238, 46, 49, 0.695);
   color: rgba(49, 216, 67, 0.695);
-  font-weight: bold;
 }
 .navbar a.home.active:hover {
   background-color: rgb(215, 241, 113, 0.695);
   color: rgba(255, 105, 235, 0.695);
-  font-weight: bold;
 }
 
+.navbar2 {
+  float: right;
+}
+.navbar2 .repo:hover {
+  background-color: #C04ABC;
+  color: #FFDBB5;
+}
+.navbar2 .editor:hover {
+  background-color: #2BC016;
+  color: #ADE1E5;
+}
+.navbar2 .README:hover {
+  background-color: #E0A458;
+  color: #1F5BA7;
+}
 /* Header and Footer */
 header {
   padding: 30px;
@@ -155,15 +192,14 @@ header {
 }
 
 footer {
-  height: 100px;
-  padding: 10px 10px 10px 10px; 
+  height: 20px;
   bottom: 0; 
   width: 98.59%;
   background: grey; 
   background: #30292F;
   color: #E7CFCD;
   font-size: 13px;
-  text-align: left;
+  text-align: center;
 }
 footer a {
   color: #F4B393;
@@ -174,5 +210,5 @@ footer a:hover {
 }
 
 footer ul {
-    list-style-type: none;
+  list-style-type: none;
 }
