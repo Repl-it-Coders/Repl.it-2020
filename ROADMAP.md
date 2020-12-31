@@ -1,12 +1,13 @@
 # Roadmap
 
 ## In progress
+- [ ] Edit the repl.it favicon(Anyone can do this but, if you can, TsunamiOrSumth do this). Make the favicon work on the pages as I don't know how to do that.
 - [ ] Finish the timeline(timeline is on the home page and it is about announcements of the year. Announcements found in repl talk)
 - [ ] Make the Suggestions work. Make the suggestions be sent to a file.
   - [X] Make the boxes and the suggestions submit button look better.
 - [X] Finish the most upvoted posts
   - [ ] Make the most upvoted posts look better
-- [ ] Submit project on New Year
+- [ ] I Submit project on New Year
 - [ ] One week after submit a post with all the suggestions, with the most wanted first, and the least wanted last. Only valid suggetsions allowed.
 
 ## Finished
