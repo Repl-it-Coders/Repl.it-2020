@@ -1,12 +1,12 @@
 # Roadmap
 
-## In progress ~ NOTE: DO CHANGES IN FEATURE BRANCH. PRESS THE SOURCE CONTROL BUTTON ON LEFT AND CHANGE BRANCH FROM MAIN TO FEATURE
-- [ ] Make the favicon work on the pages as I don't know how to do that.
+## In progress ~ NOTE: DO NOT DO CHANGES HERE. CHANGES ARE TO BE DONE IN [THIS](https://repl.it/@Whippingdot/Replit-2021) REPL AS THE REPL YOU ARE LOOKING AT CURRENTLY HAS BEEN SHARED ON REPL TALK.
 - [ ] Make the Suggestions work. Make the suggestions be sent to a file.
   - [X] Make the boxes and the suggestions submit button look better.
 - [ ] One week after submit a post with all the suggestions, with the most wanted first, and the least wanted last. Only valid suggetsions allowed.
 
 ## Finished
+- [X] Make the favicon work on the pages as I don't know how to do that.
 - [X] I Submit project on New Year
 - [X] Finish the timeline(timeline is on the home page and it is about announcements of the year. Announcements found in repl talk)
 - [X] Finish the most upvoted posts
