@@ -1,52 +1,106 @@
 <!DOCTYPE html>
 <html lang="en" class="suggestions">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suggest Here 👀</title>
-    <link rel="stylesheet" type="text/css" href="https://Replit-2020.whippingdot.repl.co/static/style.css">
-  </head>
-  <body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Suggest Here 👀</title>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://Replit-2020.whippingdot.repl.co/static/style.css"
+		/>
+	</head>
+	<body>
+		<script>
+			function suggest() {
+				username = document.getElementById("username");
+				suggestion = document.getElementById("suggestion");
+				console.log(username + "\n" + suggestion);
+			}
+		</script>
+		<header class="center">
+			<!--👍-->
+			<h1 class="big">For Repl.it</h1>
+			<!-did u covered all the best posts ?e-->
+			<h1>Share It</h1>
 
-  <script>
-    function suggest() {
-      username = document.getElementById('username')
-      suggestion = document.getElementById('suggestion')
-      console.log(username + "\n" + suggestion)
-    }
-  </script>
-    <header class="center"><!--👍-->
-      <h1 class="big">For Repl.it</h1><!-did u covered all the best posts ?e-->
-      <h1>Share It</h1>
-      
-      <div class="navbar">	
-        <a href="/" class="home" title="Travel to the home page">Home</a>
-        <a href="/posts" class="posts" title="See our top rated posts of the year">Posts</a>
-        <a href="/timeline" class="timeline" title="See the timeline of announcments by Repl.it">TimeLine</a>
-        <a href="/suggestions" class="suggestions active" title="Leave a suggestion here">Suggestions</a>
-        <div class="navbar2">
-          <a href="https://github.com/Repl-it-Coders/Repl.it-2020" class="repo" title="View the GitHub repo here!" target="_blank" rel="noreferrer noopener">GitHub Repo</a>
-          <a href="https://repl.it/@Whippingdot/Replit-2020" class="editor" title="View the project on repl.it" target="_blank" rel="noreferrer noopener">Project Editor</a>
-          <a href="https://repl.it/@Whippingdot/Replit-2020#README.md" class="README" title="This it the README.md" target="_blank" rel="noreferrer noopener">README</a>
-        </div>
-      </div>
-    </header>
+			<div class="navbar">
+				<a href="/" class="home" title="Travel to the home page">Home</a>
+				<a
+					href="/posts"
+					class="posts"
+					title="See our top rated posts of the year"
+					>Posts</a
+				>
+				<a
+					href="/timeline"
+					class="timeline"
+					title="See the timeline of announcements by Repl.it"
+					>TimeLine</a
+				>
+				<a
+					href="/suggestions"
+					class="suggestions active"
+					title="Leave a suggestion here"
+					>Suggestions</a
+				>
+				<div class="navbar2">
+					<a
+						href="https://github.com/Repl-it-Coders/Repl.it-2020"
+						class="repo"
+						title="View the GitHub repo here!"
+						target="_blank"
+						rel="noreferrer noopener"
+						>GitHub Repo</a
+					>
+					<a
+						href="https://repl.it/@Whippingdot/Replit-2020"
+						class="editor"
+						title="View the project on repl.it"
+						target="_blank"
+						rel="noreferrer noopener"
+						>Project Editor</a
+					>
+					<a
+						href="https://repl.it/@Whippingdot/Replit-2020#README.md"
+						class="README"
+						title="This it the README.md"
+						target="_blank"
+						rel="noreferrer noopener"
+						>README</a
+					>
+				</div>
+			</div>
+		</header>
 
-    <h1 class="center" id="heading">Suggest something about Repl.it!</h1>
-    <div id="form" class="center">
-      <form>
-        <label for="username">Repl.it username:</label><br> 
-        <input type="text" name="username" id="username"/> <br><br>
-        <label for="suggestion">Suggestion:</label><br>
-        <textarea name="suggestion" id="suggestion" maxlength="1000" type="text" cols="40" rows="8"></textarea>
-        <br> <br>
-        <button onclick="suggest()">Submit the form</button>
-        <br><br>
-      </form> 
-    </div>
+		<h1 class="center" id="heading">Suggest something about Repl.it!</h1>
+		<div id="form" class="center">
+			<form>
+				<label for="username">Repl.it username:</label><br />
+				<input type="text" name="username" id="username" /> <br /><br />
+				<label for="suggestion">Suggestion:</label><br />
+				<textarea
+					name="suggestion"
+					id="suggestion"
+					maxlength="1000"
+					type="text"
+					cols="40"
+					rows="8"
+				></textarea>
+				<br />
+				<br />
+				<button onclick="suggest()">Submit the form</button>
+				<br /><br />
+			</form>
+		</div>
 
-    <footer>
-      <p>Made with ❤ by the <a href="https://github.com/Repl-it-Coders">Repl-it-Coders Team</a> for <a href="https://repl.it">repl.it</a> as they carried use through these crises.</p>
-    </footer>
-  </body>
+		<footer>
+			<p>
+				Made with ❤ by the
+				<a href="https://github.com/Repl-it-Coders">Repl-it-Coders Team</a> for
+				<a href="https://repl.it">repl.it</a> as they carried use through these
+				crises.
+			</p>
+		</footer>
+	</body>
 </html>
