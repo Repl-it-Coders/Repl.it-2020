@@ -19,6 +19,11 @@ app.get("/suggestions", (_, res) => {
   res.sendFile(`${__dirname }/templates/suggestions.html`);
 });
 
+app.get("/timeline", (_, res) => {
+  console.log("Hello, we debugging the TIMELINE!!");
+  res.sendFile(`${__dirname }/templates/timeline.html`)
+});
+
 app.listen(8080, () => {
   console.log("Listening on port 8080.");
 });
