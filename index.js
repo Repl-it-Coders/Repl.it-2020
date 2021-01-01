@@ -3,6 +3,8 @@ const app = express();
 
 // Finally got this line to work, so /static leads to any necessary static content. ~ SixBeeps
 app.use('/static', express.static(__dirname + '/static'));
+// My try at what SixBeeps did. Doesn't seem to work
+app.use('/orgLogo.ico', express.static(__dirname + '/orgLogo.ico'));
 
 app.get("/", async(req, res) => {
   console.log("Yeeet, [DEBUG] we running in home page");
