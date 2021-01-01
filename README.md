@@ -1,8 +1,14 @@
-# Hi
-This is a project for repl.it. In 2020 we went through many hardships but repl.it has still helped us through this year. We are still here, and we survived 2020, and we should thank repl.it for that.
+# Intro
+This is a project for repl.it. In 2020 we went through many hardships but repl.it has still helped us through this year, and, for that, we should thank repl.it.
 
 ## Project
-This is a simple website in which we will say thanks to repl, we will have a suggestions box, and we will have a timeline of what happened in repl.it. We will also have the best posts of the year in the posts section. This will be based on the most upvoted posts in the year. We will have the most upvoted posts, feedback, and bugs of the year in the posts section.
+This is a simple project me and my team members in the [Repl-it-Coders Org](https://github.com/Repl-it-Coders) created. It is a website with a thank you note to repl.it, a page for the best posts of the year, and a timeline of all the announcements of the year. We also wanted to have a suggestions page system but we couldn't make it in time and I couldn't figure out how to do it. The suggestions page will still be there in the link https://replit-2020.whippingdot.repl.co/suggestions but it won't be there in the nav bar. This is because, if anyone can, I still want to finish the suggestions and make it work. If you want to give a suggestion for now on repl.it create a comment to this post and say your suggestion, but if you want to give a suggestion on GitHub create an issue. If you want to be added to the GitHub Org, comment down below or create an issue, and if you want to help with finishing the suggestions page, comment down below or create an issue. One thing to note is that these suggestions are for repl.it, not for this website, but if you want you can also give suggestions on this website.
 
-## GitHub
-If you are here, that means you are either in the GitHub org or I have invited you to the GitHub org. If you haven't joined the GitHub organization then go [here](https://github.com/Repl-it-Coders) and press view invitation and join. One thing to note is that it says I can see you IP address. I have asked in the GitHub community if you can disable this thing but the person responded with no. He also said the IP addresses are in the audit log, but when I checked there, the only thing I could see is the countries. Please believe me, as I promise that I can only see your country, and that I cannot see your IP address. You can look at the GitHub post I made earlier and you can look at other posts and you will see that I am not lying.
+## Contributions
+From the [Repl-it-Coders Org](https://github.com/Repl-it-Coders) the people who contributed to this project are:
+[Me(Whippingdot)](https://repl.it/@Whippingdot): I did most CSS(except hard parts) and I did a lot of the typing on pages, hence the 'I's on some pages.
+[isaiah08](https://repl.it/@isaiah08): He helped with the nodejs at the start and he and me planned the whole project out.
+[ColePete](https://repl.it/@ColePete): He helped with creating all the initial files and finding the bugs in the project.
+[SixBeeps](https://repl.it/@SixBeeps): He/She helped with fixing the bug where linking to the CSS file would not work. This was a huge problem and I thank SixBeeps for fixing this.
+[Coder100](https://repl.it/@Coder100): He created his .eslintrc.js file in this project. I don't know what it does but he still did something which I think helped the project.
+[TsunamiOrSumth](https://repl.it/@TsunamiOrSumth): He created the favicon for our GitHub org and for all our websites. He did some photoshopping and brought us this [awesome favicon](https://repl.it/@Whippingdot/Replit-2020/#replfavicon.png).
