@@ -1,6 +1,6 @@
 # Roadmap
 
-## In progress
+## In progress ~ NOTE: DO CHANGES IN FEATURE BRANCH. PRESS THE SOURCE CONTROL BUTTON ON LEFT AND CHANGE BRANCH FROM MAIN TO FEATURE
 - [ ] Make the favicon work on the pages as I don't know how to do that.
 - [ ] Make the Suggestions work. Make the suggestions be sent to a file.
   - [X] Make the boxes and the suggestions submit button look better.
