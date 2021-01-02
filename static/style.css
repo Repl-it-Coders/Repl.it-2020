@@ -284,6 +284,22 @@ textarea {
 	color: #ec368d;
 }
 
+/* Repl Auth Button */
+.replit-auth-button {
+	background-color: #31d843;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	width: 100px;
+	font-size: 20px;
+	color: #52dee5;
+	font-family: "Cutive Mono", monospace;
+	cursor: pointer;
+}
+.replit-auth-error {
+	color: #a62639;
+}
+
 /* Header and Footer */
 header {
 	padding: 30px;

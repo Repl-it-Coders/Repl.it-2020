@@ -22,7 +22,12 @@ app.use("/static", express.static(__dirname + "/static"));
 
 app.use("favicon.ico", express.static(__dirname + "/favicon.ico"));
 
-app.get("/", async (req, res) => {
+app.get("/", async (_, res) => {
+	console.log(`Signing in [DEBUG]`);
+	res.sendFile(`${__dirname}/views/replAuth.html`);
+});
+
+app.get("/home", async (_, res) => {
 	console.log(`Yeeet, [DEBUG] we running in home page`);
 	res.sendFile(`${__dirname}/views/home.html`);
 });
