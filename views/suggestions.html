@@ -4,20 +4,22 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Suggest Here 👀</title>
-		<link rel="shortcut icon" href="https://Replit-2020.whippingdot.repl.co/static/favicon_but_better.ico">
 		<link
 			rel="stylesheet"
 			type="text/css"
 			href="https://Replit-2020.whippingdot.repl.co/static/style.css"
 		/>
-    <link
-    rel="shortcut icon"
-    href="favicon.ico"
-    type="image/x-icon"
-    />  
+		<link
+			rel="shortcut icon"
+			href="https://Replit-2020.whippingdot.repl.co/static/favicon_but_better.ico"
+			type="image/x-icon"
+		/>
 	</head>
 	<body>
+		<script type="text/javascript" src="data.json"></script>
 		<script>
+			// Saving user suggestion to a file,
+			// Skipping database setup
 			function suggest() {
 				username = document.getElementById("username");
 				suggestion = document.getElementById("suggestion");
@@ -43,12 +45,12 @@
 					title="See the timeline of announcements by Repl.it"
 					>TimeLine</a
 				>
-				<!-- <a
+				<a
 					href="/suggestions"
 					class="suggestions active"
 					title="Leave a suggestion here"
 					>Suggestions</a
-				> -->
+				>
 				<div class="navbar2">
 					<a
 						href="https://github.com/Repl-it-Coders/Repl.it-2020"
@@ -80,7 +82,7 @@
 
 		<h1 class="center" id="heading">Suggest something about Repl.it!</h1>
 		<div id="form" class="center">
-			<form>
+			<form action="/api/suggestions" method="POST">
 				<label for="username">Repl.it username:</label><br />
 				<input type="text" name="username" id="username" /> <br /><br />
 				<label for="suggestion">Suggestion:</label><br />
