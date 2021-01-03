@@ -4,23 +4,23 @@
 
 /* HTML CSS */
 html.home {
-	background-color: #03045e;
 	color: #ff69eb;
 	font-family: "Montserrat", sans-serif;
 }
 html.posts {
-	background-color: #03045e;
-	color: #840032;
+	color: #2ec0f9;
 }
 html.suggestions {
-	background-color: #03045e;
 	color: #d8973c;
 }
 html.timeline {
-	background-color: #03045e;
 	color: #e56b6f;
 }
+html.login {
+	color: #62c370;
+}
 html {
+	background-color: #03045e;
 	font-size: 20px;
 }
 
@@ -295,6 +295,9 @@ textarea {
 	color: #52dee5;
 	font-family: "Cutive Mono", monospace;
 	cursor: pointer;
+}
+.replit-auth-button:hover {
+	background-color: rgba(49, 216, 67, 0.695);
 }
 .replit-auth-error {
 	color: #a62639;
