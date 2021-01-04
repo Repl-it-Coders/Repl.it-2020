@@ -20,11 +20,13 @@ const app = express();
 // Finally got this line to work, so /static leads to any necessary static content. ~ SixBeeps
 app.use("/static", express.static(__dirname + "/static"));
 
+app.use('/js', express.static(__dirname + '/js'));
+
 app.use("favicon.ico", express.static(__dirname + "/favicon.ico"));
 
 app.get("/", async (_, res) => {
 	console.log(`Signing in [DEBUG]`);
-	res.sendFile(`${__dirname}/views/replAuth.html`);
+	res.sendFile(`${__dirname}/views/replAuth2.html`);
 });
 
 app.get("/home", async (_, res) => {

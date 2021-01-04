@@ -2,11 +2,12 @@
 
 ##  In progress ~ NOTE: Please do not Push Commits. You can if you must but try not to.
 
-- [ ] Make the Suggestions work. Make the suggestions be sent to a file.
+- [ ] Remake website back to normal without the home page being replAuth.html
+- [ ] Make the suggestions be sent to a file.
   - [x] Make the boxes and the suggestions submit button look better.
   - [ ] List suggestions given by people underneath the suggestion form(future release ~ not now)
   - [ ] Limit one suggestion per person
-- [ ] Make sign in with repl auth
+- [ ] Make sign in with repl auth on the suggestions page.
 - [ ] One week after submit a post with all the suggestions, with the most wanted first, and the least wanted last. Only valid suggestions allowed.
 
 ## Finished
