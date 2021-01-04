@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Repl Auth</title>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="/static/style.css"
+		/>
+		<link
+			rel="shortcut icon"
+			href="/static/favicon_but_better.ico"
+			type="image/x-icon"
+		/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h3 style="margin: 0; padding: 10px; background-color: darkblue; color: white; text-align: center;">Log In With Repl.it</h1>
+    <iframe id="auth-frame" src=""></iframe>
+    <script>
+      let authFrame = document.getElementById('auth-frame');
+      authFrame.src = 'https://repl.it/auth_with_repl_site?domain=' + location.hostname;;
+    </script>
+    <script src="/js/replauth.js"></script>
+  </body>
+</html>

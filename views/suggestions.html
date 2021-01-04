@@ -4,17 +4,16 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Suggest Here 👀</title>
-		<link rel="shortcut icon" href="https://Replit-2020.whippingdot.repl.co/static/favicon_but_better.ico">
 		<link
 			rel="stylesheet"
 			type="text/css"
-			href="https://Replit-2020.whippingdot.repl.co/static/style.css"
+			href="https://Replit-2021.whippingdot.repl.co/static/style.css"
 		/>
-    <link
-    rel="shortcut icon"
-    href="favicon.ico"
-    type="image/x-icon"
-    />  
+		<link
+			rel="shortcut icon"
+			href="https://Replit-2021.whippingdot.repl.co/static/favicon_but_better.ico"
+			type="image/x-icon"
+		/>
 	</head>
 	<body>
 		<script>
@@ -43,15 +42,15 @@
 					title="See the timeline of announcements by Repl.it"
 					>TimeLine</a
 				>
-				<!-- <a
+				<a
 					href="/suggestions"
 					class="suggestions active"
 					title="Leave a suggestion here"
 					>Suggestions</a
-				> -->
+				>
 				<div class="navbar2">
 					<a
-						href="https://github.com/Repl-it-Coders/Repl.it-2020"
+						href="https://github.com/Repl-it-Coders/Repl.it-2021"
 						class="repo"
 						title="View the GitHub repo here!"
 						target="_blank"
@@ -59,7 +58,7 @@
 						>GitHub Repo</a
 					>
 					<a
-						href="https://repl.it/@Whippingdot/Replit-2020"
+						href="https://repl.it/@Whippingdot/Replit-2021"
 						class="editor"
 						title="View the project on repl.it"
 						target="_blank"
@@ -67,22 +66,25 @@
 						>Project Editor</a
 					>
 					<a
-						href="https://repl.it/@Whippingdot/Replit-2020#README.md"
+						href="https://repl.it/@Whippingdot/Replit-2021#README.md"
 						class="README"
 						title="This it the README.md"
 						target="_blank"
 						rel="noreferrer noopener"
 						>README</a
 					>
+          
+					<a href="{{LOGIN_URL}}" class="login" title="">{{USERNAME}}</a>
 				</div>
 			</div>
 		</header>
 
 		<h1 class="center" id="heading">Suggest something about Repl.it!</h1>
 		<div id="form" class="center">
-			<form>
+      {{MESSAGE}}
+			<form action="/api/suggestions" method="POST">
 				<label for="username">Repl.it username:</label><br />
-				<input type="text" name="username" id="username" /> <br /><br />
+				<input type="text" name="username" id="username" disabled/> <br /><br />
 				<label for="suggestion">Suggestion:</label><br />
 				<textarea
 					name="suggestion"
@@ -94,11 +96,21 @@
 				></textarea>
 				<br />
 				<br />
-				<button onclick="suggest()">Submit the form</button>
+				<button onclick="suggest()" id="form-submit">
+          <span>
+            Submit the form
+          <span>
+        </button>
 				<br /><br />
 			</form>
 		</div>
-
+    <script>
+      if('{{LOGIN_URL}}' == "#") {
+        document.getElementById('username').value = '{{USERNAME}}';
+      } else {
+        document.getElementById('form-submit').disabled = true;
+      }
+    </script>
 		<footer>
 			<p>
 				Made with ❤ by the
