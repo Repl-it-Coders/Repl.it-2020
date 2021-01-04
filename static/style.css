@@ -18,6 +18,7 @@ html.timeline {
 	color: #e56b6f;
 }
 html {
+
 	background-color: blue; /*change it back to blue later */
 	font-size: 20px;
 }
@@ -50,12 +51,7 @@ h2 {
 h3 {
 	font-size: 35px;
 }
-html.login h4 {
-  margin: 0;
-  padding: 10px;
-  color: black;
-  text-align: center;
-}
+
 /* Links on Home Page */
 .homeLink {
 	color: #fecee9;
@@ -95,18 +91,17 @@ p a:hover {
 button {
 	padding: 8px;
 	border-radius: 8px;
-  border: none;
 	background-color: #6cd4ff;
 	color: #562c2c;
 	font-family: "Cutive Mono", monospace;
 	font-size: 20px;
 }
-button :after {
-    background-color: #6cd4ff;
-}
 
-button:hover  {
-    background-color: green;
+input, textarea {
+	padding: 10px;
+	border-radius: 7px;
+	background-color: #f2542d;
+	color: #f5dfbb;
 }
 
 button:hover button:after {
@@ -137,17 +132,7 @@ button:hover span:after {
     opacity: 1;
     right: 0;
 }
-input,
-textarea {
-	padding: 10px;
-	border-radius: 7px;
-	background-color: #f2542d;
-	color: #f5dfbb;
-}
-textarea {
-	width: 400px;
-	height: 100px;
-}
+
 /* NAVBAR */
 .navbar {
 	overflow: hidden;
@@ -239,10 +224,6 @@ textarea {
 	color: #ade1e5;
 }
 .navbar2 .README:hover {
-	background-color: #e0a458;
-	color: #1f5ba7;
-}
-.navbar2 .login:hover { /* Need to add custom style here */
 	background-color: #e0a458;
 	color: #1f5ba7;
 }
