@@ -7,7 +7,7 @@ app.use('favicon.ico', express.static(__dirname + '/favicon.ico'))
 
 app.get("/", async(req, res) => {
   console.log("Yeeet, [DEBUG] we running in home page");
-  res.sendFile(`${__dirname }/views/home.html`);
+  res.sendFile(`${__dirname }/views/index.html`);
 });
 
 app.get("/posts", (_, res) => {
