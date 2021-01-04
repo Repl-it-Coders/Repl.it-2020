@@ -7,7 +7,7 @@ html.home {
 	color: #ff69eb;
 	font-family: "Montserrat", sans-serif;
 }
-html.posts {
+html.posts p {
 	color: #2ec0f9;
 }
 html.suggestions {
