@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
 
 /* HTML CSS */
+
 html.home {
 	color: #ff69eb;
 	font-family: "Montserrat", sans-serif;
@@ -17,7 +18,8 @@ html.timeline {
 	color: #e56b6f;
 }
 html {
-	background-color: #03045e;
+
+	background-color: blue; /*change it back to blue later */
 	font-size: 20px;
 }
 
@@ -49,12 +51,7 @@ h2 {
 h3 {
 	font-size: 35px;
 }
-html.login h4 {
-  margin: 0;
-  padding: 10px;
-  color: white;
-  text-align: center;
-}
+
 /* Links on Home Page */
 .homeLink {
 	color: #fecee9;
@@ -90,6 +87,7 @@ p a:hover {
 	font-family: "Handlee", cursive;
 	font-size: 20px;
 }
+
 button {
 	padding: 8px;
 	border-radius: 8px;
@@ -98,17 +96,43 @@ button {
 	font-family: "Cutive Mono", monospace;
 	font-size: 20px;
 }
-input,
-textarea {
+
+input, textarea {
 	padding: 10px;
 	border-radius: 7px;
 	background-color: #f2542d;
 	color: #f5dfbb;
 }
-textarea {
-	width: 400px;
-	height: 100px;
+
+button:hover button:after {
+    opacity: 1;
+    right: 0;
 }
+button span {
+    cursor: pointer;
+    position: relative;
+    transition: 0ms;
+    padding: 8px;
+  	border-radius: none;
+    border: none;
+	  background-color: #6cd4ff;
+	  color: #562c2c;
+	  font-family: "Cutive Mono", monospace;
+	  font-size: 20px;
+}
+button span:after {
+    background-color: #6cd4ff;
+}
+
+button:hover span {
+    background-color: green;
+}
+
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
 /* NAVBAR */
 .navbar {
 	overflow: hidden;
