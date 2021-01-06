@@ -1,10 +1,13 @@
 # Intro
+
 This is a project for repl.it. In 2020 we went through many hardships but repl.it has still helped us through this year, and, for that, we should thank repl.it.
 
 ## Project
-This is a simple project me and my team members in the [Repl-it-Coders Org](https://github.com/Repl-it-Coders) created. It is a website with a thank you note to repl.it, a page for the best posts of the year, and a timeline of all the announcements of the year. We also wanted to have a suggestions page so you could give your suggestions to repl.it but we couldn't make it in time and I couldn't figure out how to do it. The suggestions page will still be there in the link https://replit-2020.whippingdot.repl.co/suggestions but it won't be there in the navigation bar. This is because the team is still working on the suggestions page. If you want to give a suggestion, for now, on repl.it, create a comment on the shared post and say your suggestion, but if you want to give a suggestion and you are on GitHub, create an issue. If you want to be added to the GitHub Org, comment down below or create an issue, and if you want to help with finishing the suggestions page, comment down below or create an issue.
+
+This is a simple project me and my team members in the [Repl-it-Coders Org](https://github.com/Repl-it-Coders) created. It is a website with a thank you note to repl.it, a page for the best posts of the year, and a timeline of all the announcements of the year. We are also creating a suggestions page so you could give your suggestions to repl.it. The page for giving suggestions will be in [this](https://replit-2020.whippingdot.repl.co/suggestions) link but it won't be there in the navigation bar as we are still developing it. If you want to give a suggestion, for now, on repl.it, create a comment on the shared post and say your suggestion, but if you want to give a suggestion and you are on GitHub, create an issue. If you want to be added to the GitHub Org, comment down below or create an issue, and if you want to help with finishing the suggestions page, comment down below or create an issue.
 
 ## Contributions
+
 From the Repl-it-Coders Org the people who contributed to this project are:
 
 [Me(Whippingdot)](https://repl.it/@Whippingdot): I did most CSS(except hard parts) and I did a lot of the typing on pages, hence the 'I's on some pages.
