@@ -16,20 +16,12 @@
 		/>
 	</head>
 	<body>
-		<script>
-			function suggest() {
-				username = document.getElementById("username");
-				suggestion = document.getElementById("suggestion");
-				console.log(username + "\n" + suggestion);
-			}
-		</script>
 		<header class="center">
 			<h1 class="big">For Repl.it</h1>
-			<!-did u covered all the best posts ?e-->
 			<h1>Share It</h1>
 
-			<div class="navbar">
-				<a href="/home" class="home" title="Travel to the home page">Home</a>
+			<nav>
+				<a href="/" class="home" title="Travel to the home page">Home</a>
 				<a
 					href="/posts"
 					class="posts"
@@ -76,7 +68,7 @@
           
 					<a href="{{LOGIN_URL}}" class="login" title="">{{USERNAME}}</a>
 				</div>
-			</div>
+			</nav>
 		</header>
 
 		<h1 class="center" id="heading">Suggest something about Repl.it!</h1>
@@ -95,7 +87,7 @@
 				></textarea>
 				<br />
 				<br />
-				<button onclick="suggest()" id="form-submit">
+				<button id="form-submit">
           <span>
             Submit the form
           <span>

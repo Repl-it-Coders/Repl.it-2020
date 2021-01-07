@@ -5,21 +5,21 @@
 /* HTML CSS */
 
 html.home {
-	color: #ff69eb;
+	color: #F5F749;
 	font-family: "Montserrat", sans-serif;
 }
 html.posts {
-	color: #bcaf9c;
+	color: #03CEA4;
 }
 html.suggestions {
 	color: #d8973c;
 }
 html.timeline {
-	color: #e56b6f;
+	color: #ff5f64;
 }
 html {
 
-	background-color: blue; /*change it back to blue later */
+	background-color: #3c3cc8; 
 	font-size: 20px;
 }
 
@@ -38,7 +38,7 @@ h1 {
 	font-size: 60px;
 }
 h1.big {
-	font-size: 80px;
+	font-size: 60px;
 }
 h2 {
 	font-size: 40px;
@@ -50,6 +50,9 @@ h2 {
 }
 h3 {
 	font-size: 35px;
+}
+h5 {
+  color: #48ACF0;
 }
 
 /* Links on Home Page */
@@ -67,11 +70,11 @@ ol {
 	padding: 0;
 }
 ol a {
-	color: #54defd;
+	color: #FFC2E2;
 	text-decoration: none;
 }
 ol a:hover {
-	color: rgba(84, 222, 253, 0.695);
+	color: rgba(255, 194, 226, 0.695);
 	text-decoration: none;
 }
 p a {
@@ -86,55 +89,36 @@ p a:hover {
 	color: #0e9594;
 	font-family: "Handlee", cursive;
 	font-size: 20px;
+  cursor: text;
 }
 
 button {
 	padding: 8px;
 	border-radius: 8px;
+  border: none;
+  outline: none;
 	background-color: #6cd4ff;
 	color: #562c2c;
 	font-family: "Cutive Mono", monospace;
 	font-size: 20px;
 }
+button:hover {
+  background-color: rgba(108, 212, 255, 0.695);
+  cursor: pointer;
+}
 
 input, textarea {
 	padding: 10px;
 	border-radius: 7px;
+  border: none;
+  outline: none;
 	background-color: #f2542d;
 	color: #f5dfbb;
-}
-
-button:hover button:after {
-    opacity: 1;
-    right: 0;
-}
-button span {
-    cursor: pointer;
-    position: relative;
-    transition: 0ms;
-    padding: 8px;
-  	border-radius: none;
-    border: none;
-	  background-color: #6cd4ff;
-	  color: #562c2c;
-	  font-family: "Cutive Mono", monospace;
-	  font-size: 20px;
-}
-button span:after {
-    background-color: #6cd4ff;
-}
-
-button:hover span {
-    background-color: green;
-}
-
-button:hover span:after {
-    opacity: 1;
-    right: 0;
+  cursor: text;
 }
 
 /* NAVBAR */
-.navbar {
+nav {
 	overflow: hidden;
 	background-color: #586f7c;
 	position: sticky;
@@ -143,7 +127,7 @@ button:hover span:after {
 }
 
 /* Style the navigation bar links */
-.navbar a {
+nav a {
 	float: left;
 	color: #3a2618;
 	padding: 14px 20px;
@@ -151,63 +135,64 @@ button:hover span:after {
 }
 
 /* Right-aligned link */
-.navbar a.right {
+nav a.right {
 	float: right;
 }
 
 /* Change color on hover */
-.navbar a.suggestions:hover {
+nav a.suggestions:hover {
 	background-color: #1cfeba;
 	color: #d8973c;
 }
-.navbar a.posts:hover {
+nav a.posts:hover {
 	background-color: #ee2e31;
 	color: #31d843;
 }
-.navbar a.home:hover {
+nav a.home:hover {
 	background-color: #d7f171;
 	color: #ff69eb;
 }
-.navbar a.timeline:hover {
+nav a.timeline:hover {
 	background-color: #ffffea;
 	color: #e56b6f;
 }
 
 /* Active/current link */
-.navbar a.suggestions.active {
+nav a.suggestions.active {
 	background-color: #1cfeba;
 	color: #d8973c;
 	font-weight: bold;
 }
-.navbar a.posts.active {
+nav a.posts.active {
 	background-color: #ee2e31;
 	color: #31d843;
 	font-weight: bold;
 }
-.navbar a.home.active {
+nav a.home.active {
 	background-color: #d7f171;
 	color: #ff69eb;
 	font-weight: bold;
 }
-.navbar a.timeline.active {
+nav a.timeline.active {
 	background-color: #ffffea;
 	color: #e56b6f;
+  font-weight: bold;
 }
 
 /* Active Hover Current Link */
-.navbar a.suggestions.active:hover {
+nav a.suggestions.active:hover {
 	background-color: rgba(28, 254, 186, 0.695);
 	color: rgba(216, 151, 60, 0.695);
 }
-.navbar a.posts.active:hover {
+nav a.posts.active:hover {
 	background-color: rgba(238, 46, 49, 0.695);
 	color: rgba(49, 216, 67, 0.695);
 }
-.navbar a.home.active:hover {
+nav a.home.active:hover {
 	background-color: rgba(215, 241, 113, 0.695);
 	color: rgba(255, 105, 235, 0.695);
 }
-.navbar a.timeline.active:hover {
+nav a.timeline.active:hover {
 	background-color: rgba(255, 255, 234, 0.695);
 	color: rgba(229, 107, 111, 0.695);
 }
@@ -227,6 +212,10 @@ button:hover span:after {
 	background-color: #e0a458;
 	color: #1f5ba7;
 }
+.navbar2 .login:hover {
+  background-color: 
+}
+
 /* Timeline */
 .acttimeline {
 	position: relative;
@@ -256,7 +245,7 @@ button:hover span:after {
 	width: 25px;
 	height: 25px;
 	right: -17px;
-	background-color: white;
+	background-color: #F6F2DF;
 	border: 4px solid #ff9f55;
 	top: 15px;
 	border-radius: 50%;
@@ -279,7 +268,7 @@ button:hover span:after {
 	right: 30px;
 	border: medium solid white;
 	border-width: 10px 0 10px 10px;
-	border-color: transparent transparent transparent white;
+	border-color: transparent transparent transparent #F6F2DF;
 }
 .right2::before {
 	content: " ";
@@ -291,7 +280,7 @@ button:hover span:after {
 	left: 30px;
 	border: medium solid white;
 	border-width: 10px 10px 10px 0;
-	border-color: transparent white transparent transparent;
+	border-color: transparent #F6F2DF transparent transparent;
 }
 .right2::after {
 	left: -16px;
@@ -299,16 +288,16 @@ button:hover span:after {
 
 .content {
 	padding: 20px 30px;
-	background-color: white;
+	background-color: #F6F2DF;
 	position: relative;
 	border-radius: 6px;
 }
 .content a {
 	text-decoration: none;
-	color: #51e5ff;
+	color: #03CEA4;
 }
 .content a:hover {
-	color: #ec368d;
+	color: #D81159;
 }
 
 /* Header and Footer */
