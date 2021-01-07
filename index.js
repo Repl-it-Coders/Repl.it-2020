@@ -4,7 +4,16 @@ const app = express();
 // Finally got this line to work, so /static leads to any necessary static content. ~ SixBeeps
 app.use('/static', express.static(__dirname + '/static'));
 app.use('favicon.ico', express.static(__dirname + '/favicon.ico'))
-
+app.get("/", async (req, res) => {
+  let username = req.get("X-REPLIT-USER-NAME");
+  let loginURL = '#';
+  if(!username || username.length == 0) {
+    username = "Log In";
+    loginURL = "/login";
+  }
+	console.log(`Yeeet, [DEBUG] we running in home page`);
+	res.send(fs.readFileSync(`/${__dirname}/views/home.html`).toString().split("{{USERNAME}}").join(username).split("{{LOGIN_URL}}").join(loginURL));
+});
 app.get("/", async(req, res) => {
   console.log("[DEBUG] Connecting to home page.");
   res.sendFile(`${__dirname }/views/index.html`);
