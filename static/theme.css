@@ -1,22 +1,42 @@
-.w3-theme-l5 {color:#000 !important; background-color:#f8f8fb !important}
-.w3-theme-l4 {color:#000 !important; background-color:#e6e9f2 !important}
-.w3-theme-l3 {color:#000 !important; background-color:#cdd2e5 !important}
-.w3-theme-l2 {color:#000 !important; background-color:#b4bcd9 !important}
-.w3-theme-l1 {color:#000 !important; background-color:#9ba6cc !important}
-.w3-theme-d1 {color:#fff !important; background-color:#6d7db4 !important}
-.w3-theme-d2 {color:#fff !important; background-color:#586aa9 !important}
-.w3-theme-d3 {color:#fff !important; background-color:#4c5c94 !important}
-.w3-theme-d4 {color:#fff !important; background-color:#424f7f !important}
-.w3-theme-d5 {color:#fff !important; background-color:#37426a !important}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Shadows+Into+Light&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
-.w3-theme-light {color:#000 !important; background-color:#f8f8fb !important}
-.w3-theme-dark {color:#fff !important; background-color:#37426a !important}
-.w3-theme-action {color:#fff !important; background-color:#37426a !important}
+.w3-theme-l5 {color:#000 !important; background-color:#fffffa !important}
+.w3-theme-l4 {color:#000 !important; background-color:#feffee !important}
+.w3-theme-l3 {color:#000 !important; background-color:#fdffdc !important}
+.w3-theme-l2 {color:#000 !important; background-color:#fcffcb !important}
+.w3-theme-l1 {color:#000 !important; background-color:#faffba !important}
+.w3-theme-d1 {color:#000 !important; background-color:#ff6ce9 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#ff43e3 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#ff1bdd !important}
+.w3-theme-d4 {color:#fff !important; background-color:#f200cd !important}
+.w3-theme-d5 {color:#fff !important; background-color:#c900ab !important}
 
-.w3-theme {color:#fff !important; background-color:#828fbe !important}
-.w3-text-theme {color:#828fbe !important}
-.w3-border-theme {border-color:#828fbe !important}
+.w3-theme-light {color:#000 !important; background-color:rgb(249, 255, 167) !important}
+.w3-theme-dark {color:#000 !important; background-color:rgb(255, 148, 239) !important}
+.w3-theme-action {color:#fff !important; background-color:#020091 !important}
 
-.w3-hover-theme:hover {color:#fff !important; background-color:#828fbe !important}
-.w3-hover-text-theme:hover {color:#828fbe !important}
-.w3-hover-border-theme:hover {border-color:#828fbe !important}
+.w3-theme {color:#fff !important; background-color:rgb(42, 38, 255) !important}
+.w3-text-theme {color:#2a26ff !important}
+.w3-border-theme {border-color:#2a26ff !important}
+
+.w3-hover-theme:hover {color:#fff !important; background-color:#2a26ff !important}
+.w3-hover-text-theme:hover {color:#2a26ff !important}
+.w3-hover-border-theme:hover {border-color:#2a26ff !important}
+
+.w3-panel {
+  font-family: "Noto Sans JP", sans-serif !important;
+}
+
+.w3-container {
+  font-family: "Xanh Mono", monospace !important;
+}
+
+.w3-bar {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.title {
+  font-family: "Shadows Into Light", cursive !important;
+}
