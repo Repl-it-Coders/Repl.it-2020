@@ -74,11 +74,11 @@ app.get("/timeline", (req, res) => {
 	res.send(fs.readFileSync(`/${__dirname}/views/timeline.html`).toString().split("{{USERNAME}}").join(username).split("{{LOGIN_URL}}").join(loginURL));
 });
 
-// app.get("/home", async (_, res) => {
-// 	console.log(`Yeeet, [DEBUG] we running in home page`);
-// 	res.sendFile(`${__dirname}/views/home.html`);
-// });
+app.get("/home", async (_, res) => {
+	console.log(`Yeeet, [DEBUG] we running in home page`);
+ 	res.sendFile(`${__dirname}/views/home.html`);
 
+});
 // app.get("/posts", (_, res) => {
 // 	console.log("We in the posts page [DEBUG]");
 // 	res.sendFile(`${__dirname}/views/posts.html`);
