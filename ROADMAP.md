@@ -2,7 +2,6 @@
 
 ##  In progress ~ NOTE: Please do not Push Commits. You can if you must but try not to.
 
-- [ ] Remake website back to normal without the home page being replAuth.html
 - [ ] Make the suggestions be sent to a file.
   - [x] Make the boxes and the suggestions submit button look better.
   - [ ] List suggestions given by people underneath the suggestion form(future release ~ not now)
@@ -12,6 +11,7 @@
 
 ## Finished
 
+- [ ] ~~Remake website back to normal without the home page being replAuth.html~~[CANCELED]
 - [x] Make the favicon work on the pages as I don't know how to do that.
 - [x] I Submit project on New Year
 - [x] Finish the timeline(timeline is on the home page and it is about announcements of the year. Announcements found in repl talk)
